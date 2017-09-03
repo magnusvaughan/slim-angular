@@ -16,23 +16,23 @@
         }
 
         h1 {
-            color: #719e40;
+            color:  #7ec0ee;
             letter-spacing: -3px;
             font-family: 'Lato', sans-serif;
-            font-size: 100px;
+            font-size: 40px;
             font-weight: 200;
-            margin-bottom: 0;
+            margin-bottom: 1.5rem;
         }
     </style>
 </head>
 <body>
-<h1>Slim</h1>
-<div>a microframework for PHP</div>
+<h1>Magnus Vaughan</h1>
+<div>Software Developer</div>
 
 <?php if (isset($name)) : ?>
     <h2>Hello <?= htmlspecialchars($name); ?>!</h2>
 <?php else: ?>
-<p>Try <a href="http://www.slimframework.com">SlimFrameworksooooo</a>
+<p>
     <?php endif; ?>
 </body>
 </html>
